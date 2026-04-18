@@ -1,0 +1,32 @@
+:240;60
+inst(8)
+arpeg("name","0t:$=@ 1t:$=#. 2t")
+arpeg("nm2","0t-2 (0t,1t,2t)")
+chord("maj","0 -1 1.-2 1")
+chord("mmin","0 1 1.-1")
+inst(114)
+#vel(120)
+arpeg("aa", "0t 1t 2t")
+arpeg("aa1", "2t 3t 1t 0t")
+same 
+n0*maj$$aa>0.5 
+end:a
+same
+n2*maj$$aa1>0.5
+end:en
+same
+n0*maj$$name>0.5 1*maj$$nm2>0.5 1*maj$$nm2>0.5
+end:arp
+same
+p$
+n0t 1t 2t 3t 4t 5t 6t 7t
+end:mp
+add("a",n=4,cm = "root('~1.-1')")
+add("en",n=2,cm = "root('~-1.1')")
+add("a",n=2,cm = "root('~1.-1')")
+
+#add("mp",n=2)
+
+
+
+

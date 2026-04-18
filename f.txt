@@ -1,0 +1,8 @@
+:120;60
+load("chords.txt")
+same
+n0*Maj _ 1*M7 _ _ _
+root:~-50c
+n0*(0,0.0.1,0.0.0.1,0.1)
+end:kp
+add:kp

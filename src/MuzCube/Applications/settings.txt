@@ -1,0 +1,2 @@
+style:nord
+max channels reaper:4

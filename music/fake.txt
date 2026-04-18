@@ -1,0 +1,10 @@
+load f.muz
+
+arp name = [0t:$=@ 1t:$=#. 2t]
+arp nm2 = [0t-2 (0t,1t,2t)]
+chord maj = [0 0.1 1 1.1], edo = 5
+
+same
+
+
+

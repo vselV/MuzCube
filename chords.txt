@@ -1,0 +1,34 @@
+:120;60
+#3notes
+chord("M","0 0.1 1")
+chord("m","0 1 1.-1")
+chord("aug","0 0.1 0.2")
+chord("aug","0 1.-1 2.-2")
+
+#10edo
+chord("ed1","0e 1e 2e",edo=5)
+chord("es2","0e 1e 3e",edo=5)
+chord("es4","0e 2e 3e",edo=5)
+chord("eau","0e 2e 4e",edo=5)
+
+#4notes
+#maj
+chord("Maj","0 0.1 1 1.1")
+chord("maj","0 1.-1 1 1.1")
+#okv
+chord("kv7","0 1 1.0.1 0.0.1")
+chord("kv7","0 0.1 0.1.1 0.0.1")
+
+#trad
+chord("M7t","0 1 0.1 2.-1")
+chord("m7t","0 1 1.-1 2.-1")
+
+#tringles
+chord("M7","0 1 0.1 0.0.1")
+
+#trajector
+chord("m7","0 1 1.-1 0.0.1")
+
+
+
+

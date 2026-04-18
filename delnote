@@ -1,0 +1,20 @@
+import reapy
+
+# Получаем текущий проект
+project = reapy.Project()
+
+# Получаем первую дорожку (или по индексу/имени)
+track = project.tracks[0]
+
+# Получаем первый MIDI-item на дорожке
+midi_item = track.items[0]
+
+# Получаем доступ к MIDI-событиям
+take = midi_item.active_take
+
+# Получаем все ноты
+notes = take.get_notes()
+
+if notes:
+    # Удаляем первую ноту (пример: note_index = 0)
+    take.delete_note(notes[0].index)  # или явно указать индекс note_id

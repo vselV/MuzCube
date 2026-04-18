@@ -1,0 +1,9 @@
+:120;60
+inst:7
+same
+p^
+n1f 1/2f 1/3f 1/4f 1/5f 1/6f 1/7f
+n1/8f 1/9f 1/10f 1/11f 1/12f 1/13f 1/14f
+end:n
+oct:4
+add:n

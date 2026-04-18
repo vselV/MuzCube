@@ -1,0 +1,31 @@
+:60;60
+inst:7
+same
+n1*(0,0.1,0.0.1)
+end:a
+same
+p^
+n1f 2f 3f 4f 5f 6f 7f 8f
+end:name
+same
+n0.-1 1 0.-1 _
+end:l
+oct:-1
+add:name
+root:-1
+add:name
+root:1
+add:name
+root:0.-1
+add:name
+root:0
+oct:1
+add:l
+root:~-50c
+add:l
+root:~-50c
+add:l
+root:~-50c
+add:l
+root:~-50c
+

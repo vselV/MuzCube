@@ -1,0 +1,8 @@
+theme:light
+language:ru
+auto_save:False
+font_size:12
+show_line_numbers:True
+tab_width:4
+style:nord
+max channels reaper:16

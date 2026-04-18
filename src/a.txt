@@ -1,0 +1,84 @@
+src/
+└── MuzCube/
+    ├── __init__.py
+    ├── Applications/
+    │   ├── __init__.py
+    │   ├── fGrigDraw.py
+    │   ├── MyGl.py
+    │   └── rManyTabs.py
+    ├── Calculus/
+    │   ├── __init__.py
+    │   ├── gGrig Experement.py
+    │   └── rGrigDissonance.py
+    ├── Dialogs/
+    │   ├── __init__.py
+    │   ├── eGrigDialog.py
+    │   └── FileConf.py
+    ├── FirstVersion/
+    │   ├── __init__.py
+    │   ├── functions.py
+    │   ├── Galnit.py
+    │   ├── PlayOneNote.py
+    │   ├── startOcon.py
+    │   ├── toMidGa.py
+    │   └── toMidiMeth.py
+    ├── Lex/
+    │   ├── __init__.py
+    │   ├── MuzCubeLexer.py
+    │   ├── pyCustom.py
+    │   ├── rDeepLexWin.py
+    │   ├── rLexWin.py
+    │   └── tomObj.py
+    ├── Midi/
+    │   ├── __init__.py
+    │   └── midi_player.py
+    ├── Scripts/
+    │   ├── __init__.py
+    │   ├── addReapy.py
+    │   ├── allMidiFrom.py
+    │   ├── byton.py
+    │   ├── CreateCode.py
+    │   ├── createMidi.py
+    │   ├── createMidiFile.py
+    │   ├── CreatePaths.py
+    │   ├── ListParse.py
+    │   ├── MuzCubeCreate.py
+    │   ├── Reaper.py
+    │   ├── reapyParse.py
+    │   ├── recolor.py
+    │   ├── rGrigDataMethods.py
+    │   ├── rUtils.py
+    │   └── toReaperMidiFile.py
+    ├── UtilClasses/
+    │   ├── __init__.py
+    │   ├── colorClass.py
+    │   ├── colorQtClass.py
+    │   ├── dataClass.py
+    │   ├── FileDict.py
+    │   ├── mClass.py
+    │   ├── newColorClass.py
+    │   ├── rGrigDataEvt.py
+    │   ├── rGrigGrids.py
+    │   ├── rGrigMixins.py
+    │   ├── rGrigNotesChords.py
+    │   ├── rGrigPyKeys.py
+    │   └── StatesStruct.py
+    ├── UtilFlles/
+    │   ├── __init__.py
+    │   └── dataTok.py
+    ├── UtilMath/
+    │   ├── __init__.py
+    │   └── mathD.py
+    └── Wigets/
+        ├── __init__.py
+        ├── Console.py
+        ├── gGrigWigets.py
+        ├── rButtonPanel.py
+        ├── rGrigAutoComp.py
+        ├── rGrigEvents.py
+        ├── rGrigHeadltems.py
+        ├── rGrigPiano3.py
+        ├── rGrigSyncContainer.py
+        ├── rGrigSyncGrid.py
+        ├── rGrigToolBar.py
+        └── SceneTable.py
